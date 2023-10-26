@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifh;
+}
+
+.container {
+    width: 700px;
+    height: 750px;
+    background-color: darkblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+
+.left {
+    float: left;
+}
+
+.empty {
+    height: 250px;
+    width: 10px;
+    /* background-color: #000; */
+}
+
+.left-column-div {
+    background-color: lightblue;
+    height: 480px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 50px 3px 5px 0px;
+}
+
+.box {
+    background-color: red;
+    width: 180px;
+    height: 130px;
+    margin: 10px;
+    border-radius: 10px;    
+}
+
+
+.right {
+    float: right;
+}
+
+.slideshow {
+    margin-top: 20px;
+    width: 460px;
+    height:230px;
+    background-color: rgb(2, 154, 248);
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+}
+
+.img-div {
+    margin: 10px;
+    /* float: left; */
+}
+
+.empty1 {
+    width: px;
+    height: 10px;
+    background-color: #fff;
+    float: left;
+}
+
+.img1 {
+    width: 220px;
+    height: 100px;
+    background-color: rgb(2, 154, 248);
+    float: left;
+    border-radius: 10px;
+    position: relative;
+    right: 10px;
+    color: #fff;
+    padding: 5px;
+}
+
+.img2 {
+    width: 220px;
+    height: 100px;
+    background-color: rgb(2, 154, 248);
+    float: right;
+    border-radius: 10px;
+    position: relative;
+    left: 10px;
+    color: #fff;
+    padding: 5px;
+}
+
+.empty2 {
+    width: 10px;
+    height: 10px;
+    clear: both;
+}
+
+.text {
+    width: 460px;
+    height: 360px;
+    background-color: rgb(2, 154, 248);
+    clear: both;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+}
